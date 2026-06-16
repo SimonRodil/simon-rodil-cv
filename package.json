@@ -8,8 +8,9 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "_comment_on_predeploy_and_deploy": "Desactivados porque el repo se migró a simonrodil.github.io, donde main se despliega automáticamente vía GitHub Pages. Si quieres reactivar, restaura los valores originales en las dos líneas de abajo y descomenta en el workflow (ver INSTRUCTIONS.md).",
+    "predeploy": "echo 'Desactivado — consulta INSTRUCTIONS.md para reactivar'",
+    "deploy": "echo 'Desactivado — consulta INSTRUCTIONS.md para reactivar'"
   },
   "dependencies": {
     "framer-motion": "^12.40.0",

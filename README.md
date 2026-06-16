@@ -2,7 +2,7 @@
 
 Bilingual (EN/ES) portfolio CV built with React, Vite, Tailwind CSS, and Framer Motion. Deployed on GitHub Pages.
 
-**Live site:** [simonrodil.github.io/simon-rodil-cv](https://simonrodil.github.io/simon-rodil-cv/)
+**Live site:** [simonrodil.github.io](https://simonrodil.github.io/)
 
 ## Development
 
@@ -20,9 +20,10 @@ npm run preview
 
 ## Deploy
 
-Push to `main`. GitHub Actions builds and publishes to Pages automatically.
+Este repo se migró a [simonrodil.github.io](https://github.com/simonrodil/simonrodil.github.io).
+En ese repo, al pushear a `main` se despliega automáticamente vía GitHub Pages (sin necesidad de actions ni rama `gh-pages`).
 
-Enable **Settings → Pages → Source: GitHub Actions** on the repository.
+> Si quieres activar el deploy en este repo, consulta [`INSTRUCTIONS.md`](./INSTRUCTIONS.md).
 
 ## Update content
 
